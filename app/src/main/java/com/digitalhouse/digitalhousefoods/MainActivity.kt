@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
+        //The splash screen that will direct to Login Activity with a Intent
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
