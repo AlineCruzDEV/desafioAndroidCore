@@ -84,7 +84,7 @@
 
         </LinearLayout>
 
-    </ScrollView>
+    </ScrollView>se qui
 
     <Button
         android:id="@+id/btRegister2"
