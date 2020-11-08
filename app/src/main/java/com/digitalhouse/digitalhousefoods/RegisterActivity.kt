@@ -10,6 +10,10 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
+        setSupportActionBar(findViewById(R.id.toolbar))
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         //Click in REGISTER Button
         btRegister2.setOnClickListener{
             callMain()
