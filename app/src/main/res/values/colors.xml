@@ -8,5 +8,6 @@
     <color name="colorInfoLogin">#8492A6</color>
     <color name="colorOrLogin">#47525E</color>
     <color name="redButton">#FF5252</color>
+    <color name="backgroundCard">#DDDDDD</color>
 
 </resources>
