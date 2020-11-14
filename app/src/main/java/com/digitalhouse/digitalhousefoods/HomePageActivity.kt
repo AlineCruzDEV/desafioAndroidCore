@@ -19,6 +19,7 @@ class HomePageActivity : AppCompatActivity() {
         recyclerView.setHasFixedSize(true)
     }
 
+    //function that returns the list of restaurants
     private fun Restaurantes(): List<Restaurante> = listOf(
         Restaurante(
             1,
