@@ -25,6 +25,7 @@ class LoginActivity : AppCompatActivity() {
 
     //Function that through the intent will start the HomePageActivity
     private fun callMain() {
+        finishAffinity()
         var intent = Intent(this, HomePageActivity::class.java)
         startActivity(intent)
     }
