@@ -1,12 +1,14 @@
 package com.digitalhouse.digitalhousefoods
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 
 class RestauranteAdapter(val listaRestaurantes: List<Restaurante>, val context: Context) :
@@ -30,6 +32,9 @@ class RestauranteAdapter(val listaRestaurantes: List<Restaurante>, val context: 
 
         holder.itemView.setOnClickListener {
             Toast.makeText(context, "agora passar o Cardápio", Toast.LENGTH_SHORT).show()
+
+            var intent = Intent(context,CardapioActivity::class.java)
+            //startActivity(intent)
         }
     }
 
